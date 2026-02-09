@@ -1,0 +1,17 @@
+{
+    "name": "how-it-lands",
+    "version": "1.0.0",
+    "description": "Standup line analysis demo with React + Node.js + ES Agent Builder",
+    "scripts": {
+        "install:all": "npm install && cd server && npm install && cd ../web && npm install",
+        "dev": "concurrently \"npm run dev:server\" \"npm run dev:web\"",
+        "dev:server": "cd server && npm run dev",
+        "dev:web": "cd web && npm run dev",
+        "start": "concurrently \"npm run start:server\" \"npm run start:web\"",
+        "start:server": "cd server && npm start",
+        "start:web": "cd web && npm run preview"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
