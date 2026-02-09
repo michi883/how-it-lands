@@ -2,7 +2,7 @@
 
 A demo application for analyzing comedy material using **React + Node.js + Elasticsearch Agent Builder**. See how your jokes might land with different audience perspectives, powered by GenAI agents.
 
-![Demo Screenshot](/assets/screenshot.png) *(Optional: Add a screenshot here)*
+![Demo Screenshot](/assets/cover_lands.png) *(Optional: Add a screenshot here)*
 
 ## 🚀 Features
 
